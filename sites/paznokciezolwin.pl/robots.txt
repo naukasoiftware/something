@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://paznokciezolwin.pl/sitemap.xml
