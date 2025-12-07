@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="title desc">
-  <title id="title">KLASYKA monogram</title>
-  <desc id="desc">Złoty monogram litery K wpisany w okrąg, minimalistyczny styl</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Logo KLASYKA</title>
+  <desc id="desc">Złoty monogram K w okręgu</desc>
   <defs>
-    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f1d9a8"/>
-      <stop offset="45%" stop-color="#d3b164"/>
-      <stop offset="100%" stop-color="#c3993f"/>
+    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#e5cf96"/>
+      <stop offset="100%" stop-color="#c5a256"/>
     </linearGradient>
   </defs>
-  <circle cx="110" cy="110" r="100" fill="none" stroke="url(#gold)" stroke-width="12" stroke-linecap="round"/>
-  <path fill="url(#gold)" d="M76 48h25v124H76zM116 48h20l-36 48 44 76h-21l-44-75 37-49z"/>
+  <circle cx="160" cy="160" r="150" fill="none" stroke="url(#g)" stroke-width="20" />
+  <path fill="url(#g)" d="M98 57h40v206H98z"/>
+  <path fill="url(#g)" d="M144 57h42l54 81-45 63 55 62h-46l-60-72 45-60z"/>
 </svg>
