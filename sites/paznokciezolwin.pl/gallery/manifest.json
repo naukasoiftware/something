@@ -1,0 +1,28 @@
+{
+  "images": [
+    {
+      "src": "gallery/placeholder1.svg",
+      "alt": "Stylizacja Żółwin 1"
+    },
+    {
+      "src": "gallery/placeholder2.svg",
+      "alt": "Stylizacja Żółwin 2"
+    },
+    {
+      "src": "gallery/placeholder3.svg",
+      "alt": "Stylizacja Żółwin 3"
+    },
+    {
+      "src": "gallery/placeholder4.svg",
+      "alt": "Stylizacja Żółwin 4"
+    },
+    {
+      "src": "gallery/placeholder5.svg",
+      "alt": "Stylizacja Żółwin 5"
+    },
+    {
+      "src": "gallery/placeholder6.svg",
+      "alt": "Stylizacja Żółwin 6"
+    }
+  ]
+}

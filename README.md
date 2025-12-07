@@ -30,7 +30,7 @@ deploy.sh
 6. Włącz darmowe SSL (panel ViperHOST – Let’s Encrypt) lub użyj Cloudflare Universal SSL.
 7. Jeśli korzystasz z certbota na VPS, uruchom przykładowe polecenie z `deploy.sh` (sekcja HINT) dla wszystkich domen.
 8. Dodaj każdą domenę do Google Search Console i kliknij „Poproś o zaindeksowanie”.
-9. Podmień zdjęcia w `gallery/` na JPG/PNG/WebP zachowując nazwy plików lub aktualizując `<img>` w `index.html`.
+9. Podmień zdjęcia w `gallery/` na JPG/PNG/WebP i zaktualizuj `gallery/manifest.json` (lista `images`) albo zachowaj nazwy `placeholder*.svg`.
 10. Edytuj styl w `sites/shared_assets/style.css`, aby zmienić akcenty (np. kolor złota) lub animacje.
 
 ## Jak zrobić własną paczkę ZIP (opcjonalnie)
@@ -55,7 +55,9 @@ deploy.sh
 - `robots.txt` zawiera `Allow: /` i wskazanie `sitemap.xml`.
 
 ## Jak podmienić galerie
-- Zamień pliki `gallery/placeholder*.svg` na swoje zdjęcia (JPG/PNG/WebP) zachowując nazwy lub zaktualizuj ścieżki w sekcji `Galeria` w `index.html`.
+- Wgraj własne zdjęcia do `gallery/` (JPG/PNG/WebP).
+- Zaktualizuj `gallery/manifest.json` w każdej domenie – struktura to `{"images": [{"src": "gallery/nazwa.jpg", "alt": "Opis"}]}`.
+- Sekcja Galeria ładuje wpisy z manifestu automatycznie (bez ręcznego linkowania w HTML).
 
 ## Checklista testów
 - [ ] `http://domena` → 301 do `https://domena/`
