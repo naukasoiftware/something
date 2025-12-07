@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-label="Mapa dojazdu">
+  <defs>
+    <linearGradient id="gm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6ead4"/>
+      <stop offset="100%" stop-color="#e7d3b0"/>
+    </linearGradient>
+    <linearGradient id="pin" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#d6b76b"/>
+      <stop offset="100%" stop-color="#b58e3c"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="240" height="160" rx="16" fill="url(#gm)" />
+  <path d="M14 132c32-26 62-40 90-40s58 14 88 44" fill="none" stroke="#c9a05c" stroke-width="6" stroke-linecap="round" stroke-dasharray="8 10" opacity="0.4"/>
+  <path d="M28 46c24 12 48 18 72 18 24 0 48-6 72-18" fill="none" stroke="#c9a05c" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 8" opacity="0.4"/>
+  <circle cx="72" cy="78" r="10" fill="#c19f55" opacity="0.35"/>
+  <circle cx="150" cy="46" r="9" fill="#c19f55" opacity="0.35"/>
+  <g transform="translate(168 88)">
+    <path d="M24 4c-8.8 0-16 7.2-16 16 0 11.5 16 30 16 30s16-18.5 16-30c0-8.8-7.2-16-16-16z" fill="url(#pin)"/>
+    <circle cx="24" cy="20" r="7" fill="#fff" opacity="0.9"/>
+  </g>
+</svg>
