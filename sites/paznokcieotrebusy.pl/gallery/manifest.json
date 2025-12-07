@@ -1,0 +1,28 @@
+{
+  "images": [
+    {
+      "src": "gallery/placeholder1.svg",
+      "alt": "Stylizacja Otrębusy 1"
+    },
+    {
+      "src": "gallery/placeholder2.svg",
+      "alt": "Stylizacja Otrębusy 2"
+    },
+    {
+      "src": "gallery/placeholder3.svg",
+      "alt": "Stylizacja Otrębusy 3"
+    },
+    {
+      "src": "gallery/placeholder4.svg",
+      "alt": "Stylizacja Otrębusy 4"
+    },
+    {
+      "src": "gallery/placeholder5.svg",
+      "alt": "Stylizacja Otrębusy 5"
+    },
+    {
+      "src": "gallery/placeholder6.svg",
+      "alt": "Stylizacja Otrębusy 6"
+    }
+  ]
+}

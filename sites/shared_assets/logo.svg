@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Logo KLASYKA</title>
+  <desc id="desc">Złoty monogram K w okręgu</desc>
+  <defs>
+    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#e5cf96"/>
+      <stop offset="100%" stop-color="#c5a256"/>
+    </linearGradient>
+  </defs>
+  <circle cx="160" cy="160" r="150" fill="none" stroke="url(#g)" stroke-width="20" />
+  <path fill="url(#g)" d="M98 57h40v206H98z"/>
+  <path fill="url(#g)" d="M144 57h42l54 81-45 63 55 62h-46l-60-72 45-60z"/>
+</svg>

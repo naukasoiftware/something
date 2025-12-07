@@ -1,0 +1,28 @@
+{
+  "images": [
+    {
+      "src": "gallery/placeholder1.svg",
+      "alt": "Stylizacja Podkowa Leśna 1"
+    },
+    {
+      "src": "gallery/placeholder2.svg",
+      "alt": "Stylizacja Podkowa Leśna 2"
+    },
+    {
+      "src": "gallery/placeholder3.svg",
+      "alt": "Stylizacja Podkowa Leśna 3"
+    },
+    {
+      "src": "gallery/placeholder4.svg",
+      "alt": "Stylizacja Podkowa Leśna 4"
+    },
+    {
+      "src": "gallery/placeholder5.svg",
+      "alt": "Stylizacja Podkowa Leśna 5"
+    },
+    {
+      "src": "gallery/placeholder6.svg",
+      "alt": "Stylizacja Podkowa Leśna 6"
+    }
+  ]
+}
