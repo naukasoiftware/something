@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://klasykabrwinow.com.pl/sitemap.xml
