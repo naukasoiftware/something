@@ -68,17 +68,27 @@
       </div>
     </section>
 
+    
     <section class="section" id="galeria">
       <h2>Galeria</h2>
-      <div class="gallery">
-        <img src="gallery/placeholder1.svg" alt="Stylizacja Milanówek 1">
-        <img src="gallery/placeholder2.svg" alt="Stylizacja Milanówek 2">
-        <img src="gallery/placeholder3.svg" alt="Stylizacja Milanówek 3">
-        <img src="gallery/placeholder4.svg" alt="Stylizacja Milanówek 4">
-        <img src="gallery/placeholder5.svg" alt="Stylizacja Milanówek 5">
-        <img src="gallery/placeholder6.svg" alt="Stylizacja Milanówek 6">
+      <div class="orbit-gallery" data-city="Milanówek">
+        <div class="orbit-center">
+          <img src="gallery/placeholder1.svg" alt="Stylizacja Milanówek 1" loading="lazy">
+          <p class="orbit-hint">Obracaj i klikaj miniatury, aby zobaczyć stylizacje KLASYKA.</p>
+        </div>
+        <div class="orbit-track">
+          <div class="orbit-ring">
+            <button class="orbit-thumb active" data-src="gallery/placeholder1.svg" aria-label="Stylizacja Milanówek 1"><img src="gallery/placeholder1.svg" alt="Stylizacja Milanówek 1" loading="lazy"></button>
+            <button class="orbit-thumb" data-src="gallery/placeholder2.svg" aria-label="Stylizacja Milanówek 2"><img src="gallery/placeholder2.svg" alt="Stylizacja Milanówek 2" loading="lazy"></button>
+            <button class="orbit-thumb" data-src="gallery/placeholder3.svg" aria-label="Stylizacja Milanówek 3"><img src="gallery/placeholder3.svg" alt="Stylizacja Milanówek 3" loading="lazy"></button>
+            <button class="orbit-thumb" data-src="gallery/placeholder4.svg" aria-label="Stylizacja Milanówek 4"><img src="gallery/placeholder4.svg" alt="Stylizacja Milanówek 4" loading="lazy"></button>
+            <button class="orbit-thumb" data-src="gallery/placeholder5.svg" aria-label="Stylizacja Milanówek 5"><img src="gallery/placeholder5.svg" alt="Stylizacja Milanówek 5" loading="lazy"></button>
+            <button class="orbit-thumb" data-src="gallery/placeholder6.svg" aria-label="Stylizacja Milanówek 6"><img src="gallery/placeholder6.svg" alt="Stylizacja Milanówek 6" loading="lazy"></button>
+          </div>
+        </div>
       </div>
     </section>
+
 
     <section class="section" id="social">
       <h2>Rezerwacje i społeczność</h2>
@@ -115,7 +125,9 @@
           <p>Polecamy dojazd samochodem lub kolejką WKD. Salon mieści się przy Sochaczewskiej 10 – kilka minut spaceru od stacji Brwinów, z miejscami parkingowymi w pobliżu.</p>
           <a class="button" href="https://www.google.com/maps/dir/?api=1&destination=Sochaczewska+10,+05-840+Brwin%C3%B3w" target="_blank" rel="noopener">Otwórz trasę w Mapach</a>
         </div>
-        <div class="map-visual" aria-hidden="true"></div>
+        <div class="map-embed">
+          <iframe src="https://www.google.com/maps?q=Sochaczewska+10,+05-840+Brwin%C3%B3w&output=embed" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" title="Mapa dojazdu do KLASYKA, Sochaczewska 10"></iframe>
+        </div>
       </div>
     </section>
 
@@ -124,5 +136,23 @@
       <p>© KLASYKA – Paznokcie Milanówek</p>
     </footer>
   </div>
+
+  <script>
+    document.querySelectorAll('.orbit-gallery').forEach(gallery => {
+      const centerImg = gallery.querySelector('.orbit-center img');
+      const thumbs = gallery.querySelectorAll('.orbit-thumb');
+      thumbs.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const src = btn.dataset.src;
+          const alt = btn.querySelector('img').alt;
+          centerImg.src = src;
+          centerImg.alt = alt;
+          thumbs.forEach(t => t.classList.remove('active'));
+          btn.classList.add('active');
+        });
+      });
+    });
+  </script>
+
 </body>
 </html>
