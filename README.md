@@ -33,13 +33,6 @@ deploy.sh
 9. Podmień zdjęcia w `gallery/` na JPG/PNG/WebP zachowując nazwy plików lub aktualizując `<img>` w `index.html`.
 10. Edytuj styl w `sites/shared_assets/style.css`, aby zmienić akcenty (np. kolor złota) lub animacje.
 
-## Jak zrobić własną paczkę ZIP (opcjonalnie)
-- Jeśli potrzebujesz jednego archiwum, utwórz je lokalnie:
-  ```bash
-  zip -r klasyka_package.zip sites apache deploy.sh README.md
-  ```
-- Tak przygotowany plik możesz wgrać na serwer i rozpakować w katalogu domowym użytkownika.
-
 ## Skrypt `deploy.sh`
 - Wywołanie: `./deploy.sh [LOCAL_ROOT=/home/user/sites] [REMOTE=user@server] [REMOTE_ROOT=/home/user/sites]`
 - Kopiuje `/sites` na serwer (rsync), ustawia prawa (755 katalogi, 644 pliki), wrzuca vhost do `/etc/apache2/sites-available/klasyka.conf`, wykonuje `a2dissite 000-default.conf`, `a2ensite klasyka.conf`, `systemctl reload apache2`.
