@@ -1,28 +1,40 @@
 {
   "images": [
     {
-      "src": "gallery/placeholder1.svg",
+      "src": "gallery/1.jpg",
       "alt": "Stylizacja Otrębusy 1"
     },
     {
-      "src": "gallery/placeholder2.svg",
+      "src": "gallery/2.jpg",
       "alt": "Stylizacja Otrębusy 2"
     },
     {
-      "src": "gallery/placeholder3.svg",
+      "src": "gallery/3.jpg",
       "alt": "Stylizacja Otrębusy 3"
     },
     {
-      "src": "gallery/placeholder4.svg",
+      "src": "gallery/4.jpg",
       "alt": "Stylizacja Otrębusy 4"
     },
     {
-      "src": "gallery/placeholder5.svg",
+      "src": "gallery/5.jpg",
       "alt": "Stylizacja Otrębusy 5"
     },
     {
-      "src": "gallery/placeholder6.svg",
+      "src": "gallery/6.jpg",
       "alt": "Stylizacja Otrębusy 6"
+    },
+    {
+      "src": "gallery/7.jpg",
+      "alt": "Stylizacja Otrębusy 7"
+    },
+    {
+      "src": "gallery/8.jpg",
+      "alt": "Stylizacja Otrębusy 8"
+    },
+    {
+      "src": "gallery/9.jpg",
+      "alt": "Stylizacja Otrębusy 9"
     }
   ]
 }

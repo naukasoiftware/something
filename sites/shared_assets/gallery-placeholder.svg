@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="Galeria KLASYKA placeholder">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop stop-color="#f7e9d4" offset="0%"/>
+      <stop stop-color="#d6b76b" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="240" fill="url(#g)" rx="24"/>
+  <circle cx="72" cy="72" r="36" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="140" cy="120" r="54" fill="rgba(255,255,255,0.35)"/>
+  <circle cx="240" cy="100" r="80" fill="rgba(255,255,255,0.14)"/>
+  <text x="50%" y="52%" text-anchor="middle" fill="#1c1712" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700">KLASYKA</text>
+  <text x="50%" y="64%" text-anchor="middle" fill="#1c1712" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="14" opacity="0.8">Dodaj własne zdjęcia w gallery/1-9.jpg</text>
+</svg>
