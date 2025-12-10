@@ -1,0 +1,40 @@
+{
+  "images": [
+    {
+      "src": "gallery/1.jpg",
+      "alt": "Stylizacja Parzniew 1"
+    },
+    {
+      "src": "gallery/2.jpg",
+      "alt": "Stylizacja Parzniew 2"
+    },
+    {
+      "src": "gallery/3.jpg",
+      "alt": "Stylizacja Parzniew 3"
+    },
+    {
+      "src": "gallery/4.jpg",
+      "alt": "Stylizacja Parzniew 4"
+    },
+    {
+      "src": "gallery/5.jpg",
+      "alt": "Stylizacja Parzniew 5"
+    },
+    {
+      "src": "gallery/6.jpg",
+      "alt": "Stylizacja Parzniew 6"
+    },
+    {
+      "src": "gallery/7.jpg",
+      "alt": "Stylizacja Parzniew 7"
+    },
+    {
+      "src": "gallery/8.jpg",
+      "alt": "Stylizacja Parzniew 8"
+    },
+    {
+      "src": "gallery/9.jpg",
+      "alt": "Stylizacja Parzniew 9"
+    }
+  ]
+}

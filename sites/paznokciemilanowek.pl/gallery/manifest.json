@@ -1,0 +1,40 @@
+{
+  "images": [
+    {
+      "src": "gallery/1.jpg",
+      "alt": "Stylizacja Milanówek 1"
+    },
+    {
+      "src": "gallery/2.jpg",
+      "alt": "Stylizacja Milanówek 2"
+    },
+    {
+      "src": "gallery/3.jpg",
+      "alt": "Stylizacja Milanówek 3"
+    },
+    {
+      "src": "gallery/4.jpg",
+      "alt": "Stylizacja Milanówek 4"
+    },
+    {
+      "src": "gallery/5.jpg",
+      "alt": "Stylizacja Milanówek 5"
+    },
+    {
+      "src": "gallery/6.jpg",
+      "alt": "Stylizacja Milanówek 6"
+    },
+    {
+      "src": "gallery/7.jpg",
+      "alt": "Stylizacja Milanówek 7"
+    },
+    {
+      "src": "gallery/8.jpg",
+      "alt": "Stylizacja Milanówek 8"
+    },
+    {
+      "src": "gallery/9.jpg",
+      "alt": "Stylizacja Milanówek 9"
+    }
+  ]
+}
